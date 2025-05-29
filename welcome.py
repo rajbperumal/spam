@@ -3,7 +3,7 @@
 from kitchen import bacon, egg, sausage
 import random
 
-INGREDIENTS = [egg.Egg(), bacon.Bacon(), sausage.Sausage()]
+INGREDIENTS = [egg.Egg(), bacon.Bacon(), lobster_thermidor.LobsterThrmidor(), sausage.Sausage()]
 
 def prepare_ingredient(ingredient):
     has_spam = random.choice([True,  False])
